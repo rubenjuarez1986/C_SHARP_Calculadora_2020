@@ -45,6 +45,8 @@
             this.button15 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.botonElevarCuadrado = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -243,12 +245,36 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Calculadora.Properties.Resources.sega;
-            this.pictureBox1.Location = new System.Drawing.Point(85, 465);
+            this.pictureBox1.Location = new System.Drawing.Point(23, 446);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(362, 139);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
+            // 
+            // botonElevarCuadrado
+            // 
+            this.botonElevarCuadrado.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.botonElevarCuadrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonElevarCuadrado.Location = new System.Drawing.Point(391, 446);
+            this.botonElevarCuadrado.Name = "botonElevarCuadrado";
+            this.botonElevarCuadrado.Size = new System.Drawing.Size(129, 74);
+            this.botonElevarCuadrado.TabIndex = 20;
+            this.botonElevarCuadrado.Text = "x^";
+            this.botonElevarCuadrado.UseVisualStyleBackColor = false;
+            this.botonElevarCuadrado.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Location = new System.Drawing.Point(391, 526);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(129, 74);
+            this.button16.TabIndex = 21;
+            this.button16.Text = "Pi";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // Form1
             // 
@@ -256,6 +282,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(544, 652);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.botonElevarCuadrado);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button15);
@@ -299,6 +327,8 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button botonElevarCuadrado;
+        private System.Windows.Forms.Button button16;
     }
 }
 

@@ -86,5 +86,11 @@
   <ItemGroup>
     <None Include="Resources\rockwool.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-product-design-number-line-angle-download-apk-square-root-calculator-app-1-app-fo-5b973215e92ef8.5153728315366354139551.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-product-design-number-line-angle-download-apk-square-root-calculator-app-1-app-fo-5b973215e92ef8.5153728315366354139551.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

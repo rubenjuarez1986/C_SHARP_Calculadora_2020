@@ -63,6 +63,28 @@ namespace Calculadora.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kisspng_product_design_number_line_angle_download_apk_square_root_calculator_app_1_app_fo_5b973215e92ef8_5153728315366354139551 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-product-design-number-line-angle-download-apk-square-root-calculator-app-" +
+                        "1-app-fo-5b973215e92ef8.5153728315366354139551", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_product_design_number_line_angle_download_apk_square_root_calculator_app_1_app_fo_5b973215e92ef81 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-product-design-number-line-angle-download-apk-square-root-calculator-app-" +
+                        "1-app-fo-5b973215e92ef81", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rockwool {
             get {
                 object obj = ResourceManager.GetObject("rockwool", resourceCulture);

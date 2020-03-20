@@ -45,6 +45,7 @@ namespace Calculadora
             label1.Text = "0";
         }
 
+
         private void button10_Click(object sender, EventArgs e)
         {
             double operando2 = Convert.ToDouble(label1.Text);
@@ -65,9 +66,34 @@ namespace Calculadora
             {
                 resultado = operando1 / operando2;
             }
-
+           
 
             label1.Text = Convert.ToString(resultado);
         }
+
+        private void button17_Click(object sender, EventArgs e) //x^
+        {
+            operando1 = Convert.ToDouble(label1.Text);
+            operando1 *= operando1;
+            label1.Text = Convert.ToString(operando1);
+        }
+
+        private void button16_Click(object sender, EventArgs e)//pi
+        {
+            Button boton = (Button)sender;
+            if (label1.Text == "0")
+            {
+                label1.Text = "3,14";
+            }
+            else
+            {
+                operacion = boton.Text;
+                operando1 = Convert.ToDouble(label1.Text);
+                operando1 *= Math.PI;
+                label1.Text = Convert.ToString(operando1);
+            }
+        }
+
+       
     }
 }
